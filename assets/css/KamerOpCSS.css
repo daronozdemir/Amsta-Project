@@ -1,0 +1,129 @@
+#Header {
+    background-color: salmon;
+	border-bottom-width: 2px;
+	border-style: solid;
+	border-color: black;
+	width: 100%;
+	height: 13%;
+    text-align: center;
+    color: white;    /* kleur voor text */
+	overflow: hidden;
+	text-decoration: none;
+}
+
+#Main1 {
+    overflow: hidden;
+    
+}
+
+#Main2 {
+    display: none;
+}
+
+#Main3 {
+    display: none;
+}
+
+#Footer {
+    overflow: hidden;
+}
+
+#image {
+    overflow: hidden;
+    position: fixed;
+}
+
+#textMain {
+    overflow: hidden;
+    width: 50%;
+    position:fixed;
+    left: 20%;
+
+}
+
+#helpBTN {
+    background-color: grey;
+    overflow: hidden;
+    position: fixed;
+    top: 59%;
+    right: 5%;
+}
+
+#nextBTN {
+    overflow: hidden;
+    position: fixed;
+    top: 25%;
+    right: 5%;  
+     
+}
+
+#backBTN {
+    overflow: hidden;
+    position: fixed;
+    top: 42%;
+    right: 5%;  
+}
+
+#extraText {
+	background-color: grey;
+	display: none;
+}
+
+#homeBTN{
+    overflow : hidden;
+    position : fixed;
+    bottom: 5%;
+    left: 46%;
+    
+}
+
+.button {
+	border-radius: 50%;
+    color: white;
+    padding: 9px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;  /* klikbaar cursor op de button */
+}
+
+.helpBTN {
+	background-color: rgb(150,150,150); /* Green */
+    border-color: rgb(120,120,120);
+    border-style: solid;
+    color: white;
+    height: 90px;
+    width: 90px;
+}
+
+.nextBTN {
+	background-color: rgb(50,255,50); /* Green */
+    border-color: rgb(120,255,120);
+    border-style: solid;
+    color: white;
+    height: 90px;
+    width: 90px;
+}
+
+.backBTN {
+	background-color: rgb(255,50,50); /* Green */
+    border-color: rgb(255,120,120);
+    border-style: solid;
+    color: white;
+    height: 90px;
+    width: 90px;
+}
+
+.homeBTN {
+    background-color: blue; /* Green */
+    border-color: rgb(120,120,120);
+    border-style: solid;
+    color: white;
+    height: 90px;
+    width: 90px;
+}
+a:link {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
